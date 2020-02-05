@@ -1,0 +1,9 @@
+Write an assembly program that continues to take input from the console until the “Enter” key is pressed using loop instruction.
+Write an assembly program that will print a right angled triangle with star depending on input. For example if we give 4 as input, the following structure will be printed:
+*
+**
+***
+****
+
+Take input of a binary number (not more than 8 bits) and print the corresponding ASCII character in console with assembly programming.
+Write a program that performs unsigned integer division by 2 repeatedly on a number and whenever the result becomes odd from even or even from odd a message will be printed in the console.
