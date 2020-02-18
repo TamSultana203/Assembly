@@ -15,7 +15,7 @@ NL DB 0DH, 0AH, '$'
     MOV DS, AX
    
     MOV CL, 10
-    MOV DX, 0
+    ;MOV DX, 0
    
  START:
  
@@ -28,8 +28,8 @@ NL DB 0DH, 0AH, '$'
     JE PRINT
    
     SUB AL, '0'
-   ; ADD DL, AL
-    ;MOV AL, DL
+    ADD DL, AL
+    MOV AL, DL
    
    
    
